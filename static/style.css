@@ -1,0 +1,51 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+.hero {
+  padding: 80px 0;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #475569;
+  max-width: 650px;
+}
+
+.links a {
+  margin-right: 16px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
