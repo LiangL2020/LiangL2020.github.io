@@ -1,8 +1,9 @@
 body {
   margin: 0;
-  background: #f7f3c8;
+  background: #fffce0;
   color: #1e365c;
-  font-family: Georgia, "Times New Roman", serif;
+  /* font-family: Georgia, "Times New Roman", serif; */
+  font-family: 'Courier', Courier, monospace;
 }
 
 .container {
@@ -76,6 +77,11 @@ p {
 .project h3 {
   margin-bottom: 8px;
   font-size: 21px;
+}
+
+img {
+    width: 300px;
+    height: auto;
 }
 
 @media (max-width: 600px) {
