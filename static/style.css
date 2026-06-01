@@ -1,5 +1,7 @@
 :root {
   --beige-cream: #fff8e0;
+  --section_dark: #fff9c4;
+  --section_light: #fffce0;
   --light-brown: #DBD5C7;
   --dark-brown: #A5957B;
   --deep-brown: #524531; 
@@ -46,17 +48,32 @@ a {
   text-underline-offset: 4px;
 }
 
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--gray);
+}
+
 /* ========== HERO ========== */
 
 .hero {
-  padding: 60px 40px;
+  padding: 30px 40px;
   margin: 0 -40px;
 }
 
-.small-text {
+.small-text a {
   font-size: 14px;
   color: var(--gray);
   text-transform: uppercase;
+  text-decoration: none !important;
+  letter-spacing: 2px;
+}
+
+.small-text a:hover {
+  font-size: 14px;
+  color: var(--dark-brown);
+  text-transform: uppercase;
+  text-decoration: none !important;
   letter-spacing: 2px;
 }
 
@@ -85,20 +102,17 @@ h1 {
   line-height: 1.7;
 }
 
-/* .section {
-  margin-top: 64px;
-} */
 .section {
   padding: 40px 80px;
   margin: 0 -40px;
 }
 
 .section-light {
-  background: #fffce0;
+  background: var(--section_light);
 }
 
 .section-dark {
-  background: #fff9c4;
+  background: var(--section_dark);
 }
 
 h2 {
