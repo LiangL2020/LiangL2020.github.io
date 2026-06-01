@@ -1,15 +1,9 @@
 :root {
-  /* --navy-blue: #1e365c; */
   --beige-cream: #fff8e0;
-  /* --black: #222; */
-  --gray: #777;
-
-  /* --dark-blue: #234458;
-  --light-blue: #446984;
-  --gray-blue: #7B8F99; */
   --light-brown: #DBD5C7;
   --dark-brown: #A5957B;
   --deep-brown: #524531; 
+  --gray: #777;
 }
 
 body {
@@ -40,21 +34,20 @@ body {
 }
 
 .nav-links {
+  color: var(--beige-cream);
+  text-decoration: underline;
+  text-underline-offset: 4px;
   display: flex;
   gap: 20px;
 }
 
 a {
-  color: var(--beige-cream);
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
 /* ========== HERO ========== */
 
-/* .hero {
-  margin-bottom: 80px;
-} */
 .hero {
   padding: 60px 40px;
   margin: 0 -40px;
@@ -68,11 +61,18 @@ a {
 }
 
 /* ========== SECTIONS ========== */
-
-b {
-  color: var(--dark-brown);
+.social-links {
+  color: var(--deep-brown);
   text-decoration: underline;
   text-underline-offset: 4px;
+  font-weight: bold;
+}
+
+.project-links {
+  color: var(--deep-brown);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  /* font-weight: bold; */
 }
 
 h1 {
@@ -109,6 +109,11 @@ h2 {
 p {
   font-size: 18px;
   line-height: 1.7;
+}
+
+.skills {
+  font-size: 16px; 
+  font-style: italic;
 }
 
 .project {
