@@ -1,7 +1,6 @@
 :root {
   --beige-cream: #fff8e0;
-  --section_dark: #fff9c4;
-  --section_light: #fffce0;
+  --dark-cream: #fff9c4;
   --light-brown: #DBD5C7;
   --dark-brown: #A5957B;
   --deep-brown: #524531; 
@@ -114,11 +113,11 @@ a:hover {
 }
 
 .section-light {
-  background: var(--section_light);
+  background: var(--beige-cream);
 }
 
 .section-dark {
-  background: var(--section_dark);
+  background: var(--dark-cream);
 }
 
 /* ===== FONTS ===== */
@@ -145,6 +144,12 @@ h3 {
 .project p {
   font-size: 15px;
   line-height: 1.3;
+}
+
+.project li{
+  font-size: 15px;
+  line-height: 1.3;
+  margin-bottom: 10px;
 }
 
 .main-project p {

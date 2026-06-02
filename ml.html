@@ -49,11 +49,9 @@
             <ol>
                 <li><a class="project-links" href="#ml-agentic-planning">Hierarchical Agentic Planning using LLM with
                         RL</a></li>
-                <li><a class="project-links" href="#ml-discrete-continuous-control">Reinforcement Learning for Discrete
-                        and Continuous Control</a></li>
-                <li><a class="project-links" href="#ml-wildlife-monitor">Enhancing Generalization in Wildlife
-                        Monitoring</a></li>
-                <li><a class="project-links" href="#ml-uav">Gesture-Controlled UAV System</a></li>
+                <li><a class="project-links" href="#ml-rl-control">One-Step Actor-Critic for Discrete and Continuous Control</a></li>
+                <li><a class="project-links" href="#ml-wildlife-monitor">Cross-Location Generalization in Wildlife Detection</a></li>
+                <li><a class="project-links" href="#ml-uav">IMU-Based Gesture Recognition for UAV Control</a></li>
             </ol>
         </section>
 
@@ -62,114 +60,6 @@
             renderProjects("ml");
         </script>
 
-        <!-- <section id="ml-agentic-planning" class="section section-dark">
-            <h2>Hierarchical Agentic Planning</h2>
-            <article class="project">
-                <p>
-                    This project explores how large language models and reinforcement learning can work together to
-                    solve complex robotic tasks. The goal was to create a hierarchical system where a high-level planner
-                    interprets task objectives and a low-level reinforcement learning policy executes the required
-                    actions within a robotic simulation environment.
-                </p>
-
-                <h3>The Challenge</h3>
-                <p>
-                    Traditional reinforcement learning policies often struggle with long-horizon tasks because they must
-                    learn both high-level decision making and low-level control simultaneously. By separating planning
-                    from execution, the system can potentially solve more complex tasks while improving generalization.
-                </p>
-
-                <h3>What I Built</h3>
-                <p>
-                    I developed the reinforcement learning component of the system using PPO (Proximal Policy
-                    Optimization) in the MetaWorld benchmark suite running on MuJoCo. I designed custom task
-                    representations, implemented reward shaping strategies, and built the training pipeline used to
-                    evaluate policy performance across different manipulation tasks.</br></br>
-
-                    To support future language-guided control, I also designed an interface that maps natural language
-                    instructions into structured task parameters that can be consumed by low-level policies.
-                </p>
-            
-                <h3>Key Contributions</h3>
-                <ul>
-                    <li>Trained PPO-based policies for robotic manipulation tasks in simulation.</li>
-                    <li>Designed custom environments and task-conditioned state representations.</li>
-                    <li>Experimented with multiple reward configurations to balance exploration and task completion.</li>
-                    <li>Analyzed training curves, success rates, and failure cases to diagnose policy behavior.</li>
-                    <li>Improved policy performance through reward shaping, achieving over 99% task success after
-                    approximately 300,000 training steps.</li>
-                    <li>Designed the architecture for future integration of language-based task planning.</li>
-                </ul>
-            
-                <h3>Technologies</h3>
-                <p>
-                    Python, PyTorch, PPO, Reinforcement Learning, MuJoCo, MetaWorld, NumPy
-                </p>
-            </article>
-        </section>
-
-        <section id="ml-discrete-continuous-control" class="section section-light">
-            <h2>RL for Discrete and Continuous Control</h2>
-            <article class="project">
-                <p></p>
-
-                <h3>The Challenge</h3>
-                <p></p>
-
-                <h3>What I Built</h3>
-                <p></p>
-            
-                <h3>Key Contributions</h3>
-                <ul>
-                    <li></li>
-                </ul>
-            
-                <h3>Technologies</h3>
-                <p></p>
-            </article>
-        </section>
-
-        <section id="ml-wildlife-monitor" class="section section-dark">
-            <h2>Enhancing Generalization in Wildlife Monitoring</h2>
-            <article class="project">
-                <p></p>
-
-                <h3>The Challenge</h3>
-                <p></p>
-
-                <h3>What I Built</h3>
-                <p></p>
-            
-                <h3>Key Contributions</h3>
-                <ul>
-                    <li></li>
-                </ul>
-            
-                <h3>Technologies</h3>
-                <p></p>
-            </article>
-        </section>
-
-        <section id="ml-uav" class="section section-light">
-            <h2>Gesture-Controlled UAV System</h2>
-            <article class="project">
-                <p></p>
-
-                <h3>The Challenge</h3>
-                <p></p>
-
-                <h3>What I Built</h3>
-                <p></p>
-            
-                <h3>Key Contributions</h3>
-                <ul>
-                    <li></li>
-                </ul>
-            
-                <h3>Technologies</h3>
-                <p></p>
-            </article>
-        </section> -->
     </main>
 </body>
 
